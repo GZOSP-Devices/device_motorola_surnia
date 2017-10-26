@@ -15,10 +15,6 @@
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 
-# Boot animation
-#TARGET_SCREEN_WIDTH := 540
-#TARGET_SCREEN_HEIGHT := 960
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
 PRODUCT_NAME := gzosp_surnia
@@ -28,7 +24,3 @@ PRODUCT_RELEASE_NAME := surnia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto E LTE (2nd Gen)"
-
-# Validus Device Maintainers
-#PRODUCT_BUILD_PROP_OVERRIDES += \
-#    DEVICE_MAINTAINERS="Sean Pires (seAndroid)"
